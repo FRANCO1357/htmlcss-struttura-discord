@@ -167,7 +167,7 @@ main{
 }
 
 .contenuto-fourth{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     height: 800px;
     width: 90%;
     display: flex;
@@ -211,4 +211,60 @@ main{
     background-color: black;
     height: 80%;
     width: 200px;
+}
+
+footer{
+    background-color: darkslategray;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenuto-footer{
+    /* border: 1px solid white; */
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social{
+    background-color: black;
+    width: 25%;
+}
+
+.footer-menu{
+    background-color: black;
+    width: 70%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-menu .option{
+    background-color: white;
+    width: 20%;
+    height: 400px;
+}
+
+.footer-footer{
+    /* border: 1px solid white; */
+    width: 80%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-logo{
+    background-color: black;
+    height: 80%;
+    width: 200px;
+}
+
+.registrati{
+    background-color: black;
+    height: 60%;
+    width: 150px;
 }
